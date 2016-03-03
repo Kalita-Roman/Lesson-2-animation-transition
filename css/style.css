@@ -139,6 +139,13 @@ input.sp-selector-5:checked ~ .sp-content {
     background-color: #7d7f72;
 }
 
+.sp-content .sp-parallax-bg {
+    -webkit-transition: background-position 0.7s linear;
+    -moz-transition: background-position 0.7s linear;
+    -o-transition: background-position 0.7s linear;
+    transition: background-position 0.7s linear;
+}
+
 input.sp-selector-1:checked ~ .sp-content .sp-parallax-bg {
     background-position: 0 0;
 }
